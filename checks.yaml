@@ -1,14 +1,9 @@
-- name: GitHub Home
+- name: XMCL Main Site
   type: http
-  host: https://github.com
+  host: https://xmcl.app
   expected_code: 200
 
-- name: GitHub API
+- name: BCMLAPI
   type: http
-  host: https://api.github.com
+  host: https://bmclapi2.bangbang93.com/
   expected_code: 200
-
-- name: Database
-  type: port
-  host: db.example.com
-  port: 5432
